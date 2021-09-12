@@ -9,8 +9,14 @@
   </head>
   <body>
     <div class="container">
-      <form id="form" name="form" class="form" action="" method="POST">
-        <h2>Register With Us</h2>
+      <form
+        id="form"
+        name="form"
+        class="form"
+        action="success.html"
+        method="GET"
+      >
+        <h2 style="text-align: center; margin: 0 0 20px">Register With Us</h2>
         <div class="form-control">
           <input type="text" id="fname" placeholder="First Name" />
         </div>
@@ -21,7 +27,7 @@
           <input type="email" id="email" placeholder="Email" />
         </div>
         <div class="form-control">
-          <input type="text" id="phone" placeholder="Phone Number" />
+          <input type="tel" id="phone" placeholder="Phone Number" />
         </div>
         <button type="button" onclick="sweetalert()">Submit</button>
         <button type="reset">Clear</button>
